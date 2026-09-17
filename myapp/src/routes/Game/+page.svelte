@@ -1,5 +1,8 @@
 <svelte:body />
-
+<header>
+    <img src="/assets/home-icon.png" />
+    <img src="/assets/about-icon.png" />
+</header>
 <h1>Angel</h1>
 
 <div class="container">
