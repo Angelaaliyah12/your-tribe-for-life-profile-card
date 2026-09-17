@@ -20,7 +20,6 @@
     <div class="container-rechts">
         <a href="/Believes">Believes</a>
         <a href="/Weakness">Weakness</a>
-        <a href="/">Reset</a>
     </div>
 </div>
 
