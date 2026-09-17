@@ -4,13 +4,13 @@
 
 <div class="container">
     <div class="container-links">
-        <a href="/Siblings">Siblings</a>
-        <a href="/Afkomst">Afkomst</a>
+        <a href="/siblings">Siblings</a>
+        <a href="/afkomst">Afkomst</a>
     </div>
-    <img class="siblings-img" src="/assets/siblings.png" />
+    <img class="siblings-img" src="/assets/siblings.png" alt="siblings-img"/>
     <div class="container-rechts">
-        <a href="/Believes">Believes</a>
-        <a href="/Weakness">Weakness</a>
+        <a href="/believes">Believes</a>
+        <a href="/weakness">Weakness</a>
         <a href="/">Reset</a>
     </div>
 </div>

@@ -1,9 +1,9 @@
 <svelte:body />
 
 <div class="start-container">
-    <img class="real-img" src="/assets/real1.png" />
+    <img class="real-img" src="/assets/real1.png" alt="profilecard-img" />
 
-    <a href="/Game">Game modus</a>
+    <a href="/game">Game modus</a>
 </div>
 
 <style>

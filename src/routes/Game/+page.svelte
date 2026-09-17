@@ -3,12 +3,12 @@
 <svelte:body />
 <header>
 <a class="header-link" href="/">
-    <img class="header-icon" src="/assets/home-icon.png" /> 
+    <img class="header-icon" src="/assets/home-icon.png" alt="home-icon" /> 
     <p class="header-tekst">Home page</p>
 </a>
-<a class="header-link" href="/About">
+<a class="header-link" href="/about">
     <p class="header-tekst">About me</p>
-    <img class="header-icon" src="/assets/about-icon.png" />
+    <img class="header-icon" src="/assets/about-icon.png" alt="about-me-icon" />
 </a>
 
 </header>
@@ -16,13 +16,13 @@
 
 <div class="container">
     <div class="container-links">
-        <a href="/Siblings">Siblings</a>
-        <a href="/Afkomst">Afkomst</a>
+        <a href="/siblings">Siblings</a>
+        <a href="/afkomst">Afkomst</a>
     </div>
-    <img class="game-img" src="/assets/game1.png" />
+    <img class="game-img" src="/assets/game1.png" alt="pixel-img"/>
     <div class="container-rechts">
-        <a href="/Believes">Believes</a>
-        <a href="/Weakness">Weakness</a>
+        <a href="/believes">Believes</a>
+        <a href="/weakness">Weakness</a>
     </div>
 </div>
 
