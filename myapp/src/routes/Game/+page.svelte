@@ -1,9 +1,8 @@
 <svelte:body />
 <header>
-    <img src="/assets/home-icon.png" />
-    <img src="/assets/about-icon.png" />
+    <img class="header-icon" src="/assets/home-icon.png" />
+    <img class="header-icon" src="/assets/about-icon.png" />
 </header>
-<h1>Angel</h1>
 
 <div class="container">
     <div class="container-links">
@@ -25,7 +24,18 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        margin-left: 50px;
+        margin-right: 50px;
     }
+    header{
+        display:flex;
+        justify-content: space-between;
+    }
+    .header-icon{
+        width: 50px;
+        height:auto;
+    }
+
     h1 {
         display: flex;
         justify-self: center;
