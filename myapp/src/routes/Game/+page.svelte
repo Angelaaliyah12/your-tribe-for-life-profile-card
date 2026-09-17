@@ -2,36 +2,44 @@
 
 <h1>Angel</h1>
 
-
-
-<img class="game-img" src="/assets/game1.png"/>
-   
-
+<div class="container">
+    <div class="container-links">
+        <a href="/Siblings">Siblings</a>
+        <a href="/Afkomst">Afkomst</a>
+    </div>
+    <img class="game-img" src="/assets/game1.png" />
+    <div class="container-rechts">
+        <a href="/Believes">Believes</a>
+        <a href="/Weakness">Weakness</a>
+        <a href="/">Reset</a>
+    </div>
+</div>
 
 <style>
-:global(body){
- background-image: url("/assets/clouds.gif");
-    height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;}
-h1{
-    display: flex;
-    justify-self: center;
-}
+    :global(body) {
+        background-image: url("/assets/clouds.gif");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1 {
+        display: flex;
+        justify-self: center;
+    }
 
-    .game-img{
+    .game-img {
         width: 250px;
         height: auto;
     }
-    a{
+    a {
         text-decoration: none;
-padding: 10px 20px;
-background-color: white;
-border-radius: 10px;
-transition: transform 0.2s ease;
-&:hover{
-    transform: scale(1.3);
-}
-}
+        padding: 10px 20px;
+        background-color: white;
+        border-radius: 10px;
+        transition: transform 0.2s ease;
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
 </style>
