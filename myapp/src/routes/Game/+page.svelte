@@ -15,7 +15,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;}
+h1{
+    display: flex;
+    justify-self: center;
+}
 
+    .game-img{
+        width: 250px;
+        height: auto;
+    }
     a{
         text-decoration: none;
 padding: 10px 20px;
