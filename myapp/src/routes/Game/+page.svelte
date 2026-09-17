@@ -28,6 +28,18 @@
         justify-self: center;
     }
 
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-links,
+    .container-rechts {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
     .game-img {
         width: 250px;
         height: auto;
