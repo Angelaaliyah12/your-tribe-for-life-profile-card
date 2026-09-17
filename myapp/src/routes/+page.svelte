@@ -3,7 +3,7 @@
 <div class="start-container">
     <img class="real-img" src="/assets/real1.png" />
 
-    <a href="/Game">Game</a>
+    <a href="/Game">Game modus</a>
 </div>
 
 <style>
