@@ -1,7 +1,7 @@
-
-
 <svelte:body />
+
 <header>
+
 <a class="header-link" href="/">
     <img class="header-icon" src="/assets/home-icon.png" alt="home-icon" /> 
     <p class="header-tekst">Home page</p>
@@ -13,18 +13,19 @@
 
 </header>
 
-
-<div class="container">
-    <div class="container-links">
+<main class="container">
+    <nav class="container-links">
         <a href="/siblings">Siblings</a>
         <a href="/afkomst">Afkomst</a>
-    </div>
+    </nav>
+
     <img class="game-img" src="/assets/game1.png" alt="pixel-img"/>
-    <div class="container-rechts">
+
+    <nav class="container-rechts">
         <a href="/believes">Believes</a>
         <a href="/weakness">Weakness</a>
-    </div>
-</div>
+    </nav>
+</main>
 
 <style>
     :global(body) {
@@ -56,11 +57,6 @@ transform: scale(1.3);
         }
     }
 
-    h1 {
-        display: flex;
-        justify-self: center;
-    }
-
     .container {
         display: flex;
         justify-content: center;
@@ -78,6 +74,7 @@ transform: scale(1.3);
         height: auto;
     }
     .container a {
+        color:black;
         text-decoration: none;
         padding: 10px 20px;
         background-color: white;
