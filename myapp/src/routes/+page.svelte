@@ -13,5 +13,16 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+ a{
+display: inline-block;  
+text-decoration: none;  
+padding: 10px 20px;
+background-color: white;
+border-radius: 10px;
+transition: transform 0.2s ease;
+&:hover{
+    transform: scale(1.3);
+}
+}
 
 </style>
