@@ -1,7 +1,12 @@
 <svelte:body />
 <header>
+<a class="header-link" href="/">
     <img class="header-icon" src="/assets/home-icon.png" />
+</a>
+<a class="header-link" href="/About">
     <img class="header-icon" src="/assets/about-icon.png" />
+</a>
+
 </header>
 
 <div class="container">
@@ -31,6 +36,9 @@
         display:flex;
         justify-content: space-between;
     }
+    .header-link{
+        text-decoration: none;
+    }
     .header-icon{
         width: 50px;
         height:auto;
@@ -57,7 +65,7 @@
         width: 250px;
         height: auto;
     }
-    a {
+    .container a {
         text-decoration: none;
         padding: 10px 20px;
         background-color: white;
