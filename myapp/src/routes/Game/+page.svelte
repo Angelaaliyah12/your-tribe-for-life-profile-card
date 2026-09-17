@@ -1,9 +1,11 @@
 <svelte:body />
 <header>
 <a class="header-link" href="/">
-    <img class="header-icon" src="/assets/home-icon.png" />
+    <img class="header-icon" src="/assets/home-icon.png" /> 
+    <p class="header-tekst">Home page</p>
 </a>
 <a class="header-link" href="/About">
+    <p class="header-tekst">About me</p>
     <img class="header-icon" src="/assets/about-icon.png" />
 </a>
 
@@ -38,10 +40,18 @@
     }
     .header-link{
         text-decoration: none;
+        color: black;
+        display:flex;
+        gap: 15px;
     }
+   
     .header-icon{
         width: 50px;
         height:auto;
+        transition: transform 0.2s ease;
+        &:hover{
+transform: scale(1.3);
+        }
     }
 
     h1 {
