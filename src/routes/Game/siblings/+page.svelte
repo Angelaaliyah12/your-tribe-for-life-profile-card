@@ -1,32 +1,21 @@
-<svelte:body />
 
-<h1>Angel</h1>
+
 
 <div class="container">
     <div class="container-links">
-        <a href="/siblings">Siblings</a>
-        <a href="/afkomst">Afkomst</a>
+        <a href="/game/siblings">Siblings</a>
+        <a href="/game/afkomst">Afkomst</a>
     </div>
-    <img class="believes-img" src="/assets/cross1.1.png" alt="cross-img" />
+    <img class="siblings-img" src="/assets/siblings.png" alt="siblings-img"/>
     <div class="container-rechts">
-        <a href="/believes">Believes</a>
-        <a href="/weakness">Weakness</a>
-        <a href="/">Reset</a>
+        <a href="/game/believes">Believes</a>
+        <a href="/game/weakness">Weakness</a>
     </div>
 </div>
 
 <style>
-    :global(body) {
-        background-image: url("/assets/clouds.gif");
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    h1 {
-        display: flex;
-        justify-self: center;
-    }
+   
+  
 
     .container {
         display: flex;
@@ -40,15 +29,16 @@
         gap: 15px;
     }
 
-    .believes-img {
-        width: 230px;
+    .siblings-img {
+        width: 330px;
         height: auto;
     }
-    a {
+    .container a {
         text-decoration: none;
         padding: 10px 20px;
         background-color: white;
         border-radius: 10px;
+        color:black;
         transition: transform 0.2s ease;
         &:hover {
             transform: scale(1.3);

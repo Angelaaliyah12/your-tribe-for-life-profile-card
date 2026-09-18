@@ -1,33 +1,21 @@
-<svelte:body />
 
-<h1>Angel</h1>
+
 
 <div class="container">
     <div class="container-links">
-        <a href="/Siblings">Siblings</a>
-        <a href="/Afkomst">Afkomst</a>
+        <a href="/game/siblings">Siblings</a>
+        <a href="/game/afkomst">Afkomst</a>
     </div>
-    <img class="weakness-img" src="/assets/blind1.png" />
+    <img class="afkomst-img" src="/assets/su1.png" alt="surinaamse-vlag-img"/>
+
     <div class="container-rechts">
-        <a href="/Believes">Believes</a>
-        <a href="/Weakness">Weakness</a>
-        <a href="/">Reset</a>
+        <a href="/game/believes">Believes</a>
+        <a href="/game/weakness">Weakness</a>
     </div>
 </div>
 
 <style>
-    :global(body) {
-        background-image: url("/assets/clouds.gif");
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    h1 {
-        display: flex;
-        justify-self: center;
-    }
-
+   
     .container {
         display: flex;
         justify-content: center;
@@ -40,11 +28,11 @@
         gap: 15px;
     }
 
-    .weakness-img {
+    .afkomst-img {
         width: 250px;
         height: auto;
     }
-    a {
+    .container a {
         text-decoration: none;
         padding: 10px 20px;
         background-color: white;

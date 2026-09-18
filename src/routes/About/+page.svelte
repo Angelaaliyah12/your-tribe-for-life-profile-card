@@ -7,7 +7,7 @@
 <svelte:body />
 
 <header>
-<a href="/game">
+<a href="/game/game">
     Home <img class="home-icon" src="/assets/home-icon.png" alt="home-icon" />
 </a>
 </header>
@@ -38,6 +38,9 @@
 </main>
 
 <style>
+@view-transition{
+    navigation:auto;
+}
     :global(body) {
         background-image: url("/assets/clouds.gif");
         height: 100%;

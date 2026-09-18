@@ -3,7 +3,7 @@
 <div class="start-container">
     <img class="real-img" src="/assets/real1.png" alt="profilecard-img" />
 
-    <a href="/game">Game modus</a>
+    <a href="/game/game">Game modus</a>
 </div>
 
 <style>
@@ -15,6 +15,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    
     .start-container {
         display: flex;
         flex-direction: column;
