@@ -17,10 +17,11 @@
 <style>
    
     .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+		display: grid;
+		grid-template-columns: 100px 230px 100px;
+		align-items: center;
+		justify-content: center;
+	}
     .container-links,
     .container-rechts {
         display: flex;

@@ -6,7 +6,7 @@
         <a href="/game/siblings">Siblings</a>
         <a href="/game/afkomst">Afkomst</a>
     </div>
-    <img class="siblings-img" src="/assets/siblings.png" alt="siblings-img"/>
+    <img class="siblings-img" src="/assets/siblings-img.png" alt="siblings-img"/>
     <div class="container-rechts">
         <a href="/game/believes">Believes</a>
         <a href="/game/weakness">Weakness</a>
@@ -18,10 +18,11 @@
   
 
     .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+		display: grid;
+		grid-template-columns: auto 500px auto;
+		align-items: center;
+		justify-content: center;
+	}
     .container-links,
     .container-rechts {
         display: flex;
@@ -30,7 +31,7 @@
     }
 
     .siblings-img {
-        width: 330px;
+        width: 500px;
         height: auto;
     }
     .container a {

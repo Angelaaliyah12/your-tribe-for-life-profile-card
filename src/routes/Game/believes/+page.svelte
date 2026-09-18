@@ -4,7 +4,7 @@
         <a href="/game/siblings">Siblings</a>
         <a href="/game/afkomst">Afkomst</a>
     </div>
-    <img class="believes-img" src="/assets/cross1.1.png" alt="cross-img" />
+    <img class="believes-img" src="/assets/cross-img.png" alt="cross-img" />
     <div class="container-rechts">
         <a href="/game/believes">Believes</a>
         <a href="/game/weakness">Weakness</a>
@@ -12,11 +12,12 @@
 </div>
 
 <style>
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .container {
+		display: grid;
+		grid-template-columns: 100px 180px 100px;
+		align-items: center;
+		justify-content: center;
+	}
     .container-links,
     .container-rechts {
         display: flex;
@@ -25,7 +26,7 @@
     }
 
     .believes-img {
-        width: 230px;
+        width: 280px;
         height: auto;
     }
     .container a {

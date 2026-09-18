@@ -5,7 +5,7 @@
         <a href="/game/afkomst">Afkomst</a>
     </nav>
 
-    <img class="game-img" src="/assets/game1.png" alt="pixel-img"/>
+    <img class="game-img" src="/assets/game-img.png" alt="pixel-img"/>
 
     <nav class="container-rechts">
         <a href="/game/believes">Believes</a>
@@ -15,11 +15,12 @@
 
 <style>
 
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+     .container {
+		display: grid;
+		grid-template-columns: 100px 160px 100px;
+		align-items: center;
+		justify-content: center;
+	}
     .container-links,
     .container-rechts {
         display: flex;
@@ -28,7 +29,7 @@
     }
 
     .game-img {
-        width: 250px;
+        width: 300px;
         height: auto;
     }
     .container a {

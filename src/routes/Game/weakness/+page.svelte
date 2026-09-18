@@ -6,7 +6,7 @@
         <a href="/game/siblings">Siblings</a>
         <a href="/game/afkomst">Afkomst</a>
     </div>
-    <img class="weakness-img" src="/assets/blind1.png" alt="glasses-charcter img" />
+    <img class="weakness-img" src="/assets/blind-img.png" alt="glasses-charcter img" />
     <div class="container-rechts">
         <a href="/game/believes">Believes</a>
         <a href="/game/weakness">Weakness</a>
@@ -14,11 +14,13 @@
 </div>
 
 <style>
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .container {
+		display: grid;
+		grid-template-columns: 100px 230px 100px;
+		align-items: center;
+		justify-content: center;
+	}
+
     .container-links,
     .container-rechts {
         display: flex;
@@ -27,7 +29,7 @@
     }
 
     .weakness-img {
-        width: 250px;
+        width: 350px;
         height: auto;
     }
     .container a {
