@@ -14,7 +14,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    }
+}
     
     .start-container {
         display: flex;
@@ -28,6 +28,7 @@
         height: auto;
     }
     a {
+
         text-align: center;
         text-decoration: none;
         padding: 10px 20px;

@@ -28,7 +28,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+   
     header{
         display:flex;
         justify-content: space-between;

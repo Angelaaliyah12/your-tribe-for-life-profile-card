@@ -20,6 +20,15 @@ onNavigate((navigation) => {
 {@render children()}
 
 <style>	
+:global(html),
+	:global(body) {
+                      cursor: url('/assets/heart-outline.svg'), auto;
+	}
+
+	:global(a),
+	:global(button) {
+                      cursor: url('/assets/heart-outline.svg'), auto;
+	}
 /* https://css-tricks.com/7-view-transitions-recipes-to-try/ */
 @media (prefers-reduced-motion: no-preference) {
 		:global(::view-transition-old(root)) {
