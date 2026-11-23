@@ -8,7 +8,7 @@
 
 <header>
 
-<a class="header-link" href="/home">
+<a class="header-link" href="/">
     <img class="header-icon" src="/assets/home-icon.png" alt="home-icon" /> 
     <p class="header-tekst">Home page</p>
 </a>
